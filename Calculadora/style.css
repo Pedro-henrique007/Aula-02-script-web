@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 24px;
+}
+
+input {
+    margin: 5px;
+    padding: 8px;
+    width: 80px;
+}
+
+button {
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+
+.aprovado {
+    color: #15803D; 
+    font-weight: bold;
+}
+
+.reprovado {
+    color: #BE123C;
+    font-weight: bold;
+}
+
+.recuperacao {
+    color: #B45309; 
+    font-weight: bold;
+}

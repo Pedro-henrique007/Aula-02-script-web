@@ -1,0 +1,70 @@
+
+* { 
+    box-sizing: border-box; 
+    margin: 0; 
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f7fc;
+    padding: 24px;
+}
+
+
+.escuro {
+    background: #1a1a1a;
+    color: #f4f7fc;
+}
+
+
+nav {
+    display: flex;
+    gap: 16px;
+    margin: 20px 0;
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #333;
+}
+
+
+nav a:hover {
+    color: #1D4ED8;
+}
+
+
+section {
+    padding: 20px;
+    border: 2px solid #c9d5e6;
+    margin-bottom: 16px;
+}
+
+
+table {
+    margin-top: 15px;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table, th, td {
+    border: 1px solid #333;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #315803;
+    color: white;
+}
+
+
+#tema {
+    padding: 10px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
